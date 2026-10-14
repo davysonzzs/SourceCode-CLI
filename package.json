@@ -1,0 +1,26 @@
+{
+  "name": "sourcecode-cli",
+  "version": "0.0.1",
+  "description": "Projeto CLI, que auxilia e conectar programadores",
+  "homepage": "https://github.com/davysonzzs/SourceCode-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/davysonzzs/SourceCode-CLI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davysonzzs/SourceCode-CLI.git"
+  },
+  "license": "ISC",
+  "author": "Davysonzzs",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "node --wacth index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "socket.io-client": "^4.8.4"
+  }
+}
