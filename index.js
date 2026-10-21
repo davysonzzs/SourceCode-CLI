@@ -2,7 +2,7 @@ const blessed = require('blessed')
 const figlet = require('figlet')
 const rotas = []
 
-// 1. A tela principal (o "canvas" do terminal)
+// 1. A tela principal
 const screen = blessed.screen({ smartCSR: true, title: 'sourceCODE' })
 
 // 2. Título centralizado, em ASCII art
